@@ -3,8 +3,8 @@ export const createPosition = () => {
 
     const position = new Array(8).fill('').map(x => new Array(8).fill(''))
 
-    // position[6] = ['bp','bp','bp','bp','bp','bp','bp','bp']
-    // position[1] = ['wp','wp','wp','wp','wp','wp','wp','wp']
+    position[6] = ['bp','bp','bp','bp','bp','bp','bp','bp']
+    position[1] = ['wp','wp','wp','wp','wp','wp','wp','wp']
 
 
     position[0][0] = 'wr'
